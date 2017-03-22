@@ -11,6 +11,9 @@ int main(int argc, char** argv) {
   MPI_Comm_size(MPI_COMM_WORLD, &world_size);
   MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
 
+  if (world_size < 10)
+    return 1;
+
   int n, i;
 	double pi, h, sum, x, total_sum;
 	n = 10000000;
