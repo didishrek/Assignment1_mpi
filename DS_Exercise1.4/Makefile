@@ -6,7 +6,7 @@ CXXFLAGS=	-g -O0
 
 OBJ=		$(SRC:.cpp=.o)
 
-SRC=		DS_Exercise1.3.cpp
+SRC=		DS_Exercise1.4.cpp
 
 all:		$(NAME)
 
@@ -23,6 +23,6 @@ fclean:	clean
 re: fclean all
 
 run:
-	mpiexec -n 6 $(NAME)
+	mpiexec -n 50 $(NAME)
 
 .PHONY: all clean fclean re run
