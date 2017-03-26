@@ -1,4 +1,4 @@
-NAME=		DS_Exercise04
+NAME=		DS_Exercise01.4
 
 CXX=		mpic++
 

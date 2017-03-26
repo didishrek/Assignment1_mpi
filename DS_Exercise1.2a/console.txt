@@ -1,0 +1,7 @@
+mpiexec -n 6 DS_Exercise02a
+node 1 sum = 994896
+node 2 sum = 991030
+node 3 sum = 986366
+node 4 sum = 992137
+node 5 sum = 987705
+4952134

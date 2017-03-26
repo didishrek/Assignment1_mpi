@@ -1,0 +1,17 @@
+mpiexec -n 4 ./DS_Exercise01
+Student name : Adrien SCHRICKE
+Student number : 2927372
+number of processor: 4
+rank is: 0
+Student name : Adrien SCHRICKE
+Student number : 2927372
+number of processor: 4
+rank is: 3
+Student name : Adrien SCHRICKE
+Student number : 2927372
+number of processor: 4
+rank is: 1
+Student name : Adrien SCHRICKE
+Student number : 2927372
+number of processor: 4
+rank is: 2
